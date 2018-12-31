@@ -5,7 +5,6 @@ public class BookDemo {
 
     private static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args){
-
         String[] bookList = { "C语言", "数据结构", "汇编语言", "高数", "大学语文", "毛概" };
         String book;
         while (true){
@@ -45,7 +44,6 @@ public class BookDemo {
         }
 
     }
-
     public static String getBookNum(String[] bookList) throws Exception{
         System.out.println("输入你要查询的序号：");
         while (true){
